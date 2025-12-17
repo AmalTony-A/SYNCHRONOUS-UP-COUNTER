@@ -69,6 +69,7 @@ Developed by: Amal Tony Charles A RegisterNumber: 25016419
 
 
 **TRUTH TABLE**
+![WhatsApp Image 2025-12-17 at 8 25 10 PM](https://github.com/user-attachments/assets/900af1f0-6cfb-42d7-b158-24ea8903f446)
 
 
 
