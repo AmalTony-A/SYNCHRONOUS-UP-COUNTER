@@ -55,16 +55,47 @@ begin
 end
 endmodule
 ```
+```
+module down_counter (out,clk,rst);
+
+input clk,rst; 
+
+output reg [3:0]out;
+
+always @ (posedge clk)
+
+begin
+
+if(!rst)
+
+out<=4'b1111;
+
+else 
+
+out <= out-1;
+
+end
+
+endmodule
+```
+
 
 Developed by: Amal Tony Charles A RegisterNumber: 25016419
 
 **RTL LOGIC UP COUNTER**
+UP COUNTER
 <img width="1467" height="786" alt="Screenshot 2025-12-17 185002" src="https://github.com/user-attachments/assets/b6a277f2-f398-4a2c-aa3c-e1e6945b59d4" />
+DOWN COUNTER 
+<img width="1276" height="695" alt="Screenshot 2025-12-17 205633" src="https://github.com/user-attachments/assets/50b3623e-fc07-46cb-a5c4-cc0ce1be7afc" />
 
 
 
-**TIMING DIAGRAM FOR IP COUNTER**
+
+**TIMING DIAGRAM FOR IP COUNTER
+UP COUNTER
 <img width="1920" height="1080" alt="Screenshot 2025-12-17 185242" src="https://github.com/user-attachments/assets/b9033c1c-d5ad-486a-9fc0-3fc6d79144b5" />
+DOWN COUNTER 
+<img width="1920" height="1080" alt="Screenshot 2025-12-17 205825" src="https://github.com/user-attachments/assets/26c7a01b-bc49-4e5f-851b-9d73547a5e49" />
 
 
 
