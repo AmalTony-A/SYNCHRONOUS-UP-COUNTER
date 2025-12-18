@@ -105,3 +105,4 @@ DOWN COUNTER
 
 
 **RESULTS**
+Thus the truth table and logic diagrama for the synchronuous up and synchronous down are verified using quartus program
